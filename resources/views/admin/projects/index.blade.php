@@ -13,7 +13,7 @@
 
 <h1 class="text-muted text-uppercase py-4">All Projects</h1>
 
-<a href="{{route('admin.projects.create')}}" class="btn btn-primary rounded-pill">Add</a>
+<a href="{{route('admin.projects.create')}}" class="btn btn-primary rounded-pill mb-3">Add</a>
 
 <div class="table-responsive-md">
     <table class="table table-striped table-hover table-borderless table-light table-middle">
