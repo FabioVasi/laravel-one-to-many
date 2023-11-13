@@ -19,6 +19,7 @@
                     <h6>{{$project->slug}}</h6>
                     <p><a href="{{$project->github}}">{{$project->github}}</a></p>
                     <p><a href="{{$project->second_link}}">{{$project->second_link}}</a></p>
+                    <p>{{$project->type ? $project->type->name : 'No Type'}}</p>
                     <p>{{$project->content}}</p>
                 </div>
             </div>
